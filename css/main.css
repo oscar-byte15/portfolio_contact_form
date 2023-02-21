@@ -496,7 +496,6 @@ body {
   transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 
-
 .wrap {
   display: flex;
   flex-direction: column;
@@ -627,8 +626,6 @@ body {
 }
 
 @media (max-width: 992px) {
-
-
   .wrap {
     display: flex;
     flex-direction: column;
@@ -636,7 +633,7 @@ body {
     padding: 100px 24px 0 24px;
     text-align: center;
   }
-  
+
   .contact-title {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -646,7 +643,7 @@ body {
     color: #fff;
     margin-bottom: 20px;
   }
-  
+
   .contact-parag {
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -658,16 +655,16 @@ body {
     font-style: normal;
     margin-bottom: 50px;
   }
-  
+
   .wrap .contact-parag { margin-bottom: 40px; }
-  
+
   .contact {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
   }
-  
+
   .contact input {
     font-family: Poppins, sans-serif;
     font-size: 17px;
@@ -678,7 +675,7 @@ body {
     border-radius: 12px;
     border: none;
   }
-  
+
   .contact textarea {
     font-family: Poppins, sans-serif;
     font-size: 15px;
@@ -688,7 +685,7 @@ body {
     border-radius: 12px;
     border: none;
   }
-  
+
   .contact button {
     font-family: Poppins, sans-serif;
     font-weight: 800;
@@ -704,9 +701,9 @@ body {
     border-radius: 12px;
     border: none;
     margin: 0 35%;
-    width:140px
+    width: 140px;
   }
-  
+
   .bottom-bar {
     margin-top: 50px;
     background-color: #0d151e;
@@ -715,16 +712,17 @@ body {
     border: 1px solid #0d151e;
     border-radius: 25px;
   }
-  
+
   .contact button:hover {
     background-color: #6070ff;
     color: #fff;
   }
-  
+
   .contact button:active {
     background-color: #2230d2;
     color: #fff;
   }
+
   .navbar__menu {
     visibility: hidden;
     opacity: 0;
@@ -777,8 +775,6 @@ body {
     margin: 3rem 0;
     width: 70%;
   }
-
-  
 }
 
 @media (min-width: 800px) {
@@ -792,6 +788,7 @@ body {
     align-self: center;
     padding: 10px;
   }
+
   .form-section {
     background-image:
       url("../statics/images/e1.svg"),
@@ -908,8 +905,6 @@ body {
     flex-basis: 25rem;
   }
 
-  
-
   .modal {
     width: 70%;
   }
@@ -986,8 +981,6 @@ body {
   .about__tools {
     flex-basis: 38rem;
   }
-
- 
 
   .modal {
     width: 60%;

@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: finish mobile version <a name="about-project"></a>
+# 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
-> In this project, I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
+> In this project, I set up my portfolio repository with a form. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +64,7 @@
 
 
 - **Personal presentation**
-- **Responsive site**
+- **Form**
 - **Good documentation of this project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
