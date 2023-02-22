@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 @media (max-width: 992px) {
-  .navbar__menu {
+  .menu_nav {
     visibility: hidden;
     opacity: 0;
     width: 100%;

@@ -5,7 +5,7 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 my the Project](#my-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
+# 📖 Portfolio: add a contact form and finish the mobile version <a name="my-project"></a>
 
 > In this project, I set up my portfolio repository with a form. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 

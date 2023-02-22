@@ -27,7 +27,7 @@ menuLinks.forEach((menuLink) => {
 document.addEventListener('DOMContentLoaded', () => {
   createModal();
 
-  const buttonsProject = document.querySelectorAll('.works__card button');
+  const buttonsProject = document.querySelectorAll('.card__items button');
   const closeIcon = document.querySelector('.closeModal');
   const modal = document.querySelector('.modal');
   const backgroundModal = document.querySelector('.overlay');
