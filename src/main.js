@@ -1,7 +1,7 @@
-// Mobile menu functionality
+// Mobile items functionality
 import {
-  menuIconMobile, menuLinks, openMenu, closeMenu,
-} from './menu.js';
+  itemsIconMobile, itemsLinks, openitems, closeitems,
+} from './items.js';
 
 // Popup window functionality
 import { createModal, projects } from './popup.js';
@@ -16,12 +16,12 @@ import {
   storageAvailable,
 } from './localstorage.js';
 
-// Start Mobile menu functionality ------------------------------------->
-menuIconMobile.addEventListener('click', openMenu);
-menuLinks.forEach((menuLink) => {
-  menuLink.addEventListener('click', closeMenu);
+// Start Mobile items functionality ------------------------------------->
+itemsIconMobile.addEventListener('click', openitems);
+itemsLinks.forEach((itemsLink) => {
+  itemsLink.addEventListener('click', closeitems);
 });
-// FInish Mobile menu functionality ------------------------------------->
+// FInish Mobile items functionality ------------------------------------->
 
 // Start Popup window functionality ------------------------------------->
 document.addEventListener('DOMContentLoaded', () => {

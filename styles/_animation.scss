@@ -1,17 +1,17 @@
 @use 'variables' as *;
 
-.menu_nav__link {
+.items_nav__link {
   transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 
 @media (min-width: 992px) {
-  .menu_nav__link:hover {
+  .items_nav__link:hover {
     color: $clr-primary-500;
     font-size: 17px;
   }
 }
 
-.presentation_icons__link {
+.showing_icons__link {
   img {
     transition: transform 0.5s;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-.presentation_icons__link img:hover {
+.showing_icons__link img:hover {
   transform: scale(1.5);
 }
 

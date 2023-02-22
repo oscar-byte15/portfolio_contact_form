@@ -63,7 +63,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Personal presentation**
+- **Personal showing**
 - **Form**
 - **Good documentation of this project**
 
