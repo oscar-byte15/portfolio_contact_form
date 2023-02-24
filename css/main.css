@@ -316,7 +316,7 @@ body {
   padding: 0;
 }
 
-.my__lang__top {
+.my_languages_favourite {
   align-items: center;
   justify-content: space-between;
   padding: 23px 40px 23px 0;
@@ -324,29 +324,29 @@ body {
   display: flex;
 }
 
-.my__lang__top__img {
+.my_languages_favourite__img {
   transform: rotate(90deg);
 }
 
-.my__lang__top__title {
+.my_languages_favourite__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
-.my__lang__bottom {
+.my_languages__bottom {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.my__lang__bottom__name {
+.my_languages__bottom__name {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
 
-.my__lang__bottom li {
+.my_languages__bottom li {
   align-items: center;
   gap: 1rem;
   border-radius: 8px;
@@ -425,30 +425,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .form-section {
-    background-image:
-      url("../statics/images/e1.svg"),
-      url("../statics/images/r1.svg"),
-      url("../statics/images/e2.svg"),
-      url("../statics/images/r2.svg"),
-      url("../statics/images/e3.svg"),
-      url("../statics/images/r3.svg"),
-      url("../statics/images/e4.svg"),
-      url("../statics/images/e5.svg"),
-      url("../statics/images/reach_me-form-\ background.svg");
-    background-repeat: no-repeat;
-    background-position:
-      5.2% 44%,
-      5.83% 40.07%,
-      87% 14.06%,
-      84.16% 8%,
-      24.86% 90.19%,
-      23.4% 87.58%,
-      36.4% 13.47%,
-      78.4% 61.58%,
-      0;
-    background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
-  }
 
   .navbar {
     padding: 1.5rem 8rem;
@@ -531,12 +507,12 @@ body {
     flex-basis: 25rem;
   }
 
-  .my__lang__bottom {
+  .my_languages__bottom {
     display: flex;
     column-gap: 12px;
   }
 
-  .my__lang__bottom li {
+  .my_languages__bottom li {
     flex-direction: column;
     align-items: flex-start;
     flex-basis: 7.6rem;
