@@ -433,6 +433,16 @@ input::placeholder {
   color: #172B4D;
 }
 
+hr{
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 1.5rem 8rem;
