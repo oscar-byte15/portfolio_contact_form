@@ -640,7 +640,6 @@ hr {
   }
 }
 
-
 @media (max-width: 1366px) {
   .reach_me {
     display: flex;
@@ -907,7 +906,6 @@ hr {
 }
 
 .div-wrap .form-paragraph { margin-bottom: 40px; }
-
 
 .reach_me input {
   font-family: Poppins, sans-serif;
