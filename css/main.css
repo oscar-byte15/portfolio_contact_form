@@ -57,13 +57,6 @@ body {
   line-height: 20px;
 }
 
-@keyframes btn-hover {
-  100% {
-    box-shadow: inset 11rem 0 0 0 #6070ff, 0 8px 16px rgba(64, 83, 252, 0.24);
-    color: #fff;
-  }
-}
-
 .hidden {
   transform: scale(0);
 }
@@ -430,17 +423,18 @@ input::placeholder {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-hr{
+hr {
   position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
+  visibility: hidden;
 }
 
 @media (min-width: 992px) {
@@ -585,7 +579,7 @@ hr{
     padding: 20px 35px;
     border-radius: 12px;
     border: none;
-    margin: 0 35%;
+    margin: 0 auto;
     width: 140px;
   }
 
@@ -676,7 +670,6 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 24px 0 24px;
     text-align: center;
   }
 
@@ -739,7 +732,7 @@ hr{
     padding: 20px 35px;
     border-radius: 12px;
     border: none;
-    margin: 0 35%;
+    margin: 0 auto;
     width: 140px;
   }
 
@@ -839,8 +832,9 @@ hr{
 }
 
 .reach_me button {
-  font-family: Poppins, sans-serif;
-  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   display: flex;
@@ -850,11 +844,53 @@ hr{
   letter-spacing: 0.03em;
   color: #6070ff;
   align-self: flex-start;
-  margin: 0 auto;
-  border-radius: 10.5px;
   border: none;
-  width: 142px;
+  width: 180px;
   height: 48px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding: 20px 35px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+  .reach_me {
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .div-wrap .form-paragraph {
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+
+  .reach_me button {
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    align-self: flex-start;
+    margin: 5px 5px 5% 0;
+    border-radius: 10.5px;
+    border: none;
+    width: 142px;
+    height: 48px;
+    float: left;
+  }
+
+  hr {
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    left: calc(50% - 134px / 2 - 0.5px);
+    bottom: 8px;
+    background: #0d151e;
+    border-radius: 10px;
+    visibility: visible;
+  }
 }
