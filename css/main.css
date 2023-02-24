@@ -424,6 +424,15 @@ body {
   color: #7f8cff;
 }
 
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 1.5rem 8rem;
