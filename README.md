@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: add a contact form and finish the mobile version <a name="my-project"></a>
+# 📖 Portfolio: add a reach_me form and finish the mobile version <a name="my-project"></a>
 
 > In this project, I set up my portfolio repository with a form. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 
@@ -263,7 +263,7 @@ To get a local copy up and running follow these simple steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ArthurGC/portfolio-microverse/issues).
+Feel free to check the [issues page](https://github.com/oscar-byte15).
 
 ## Acknowledgments
 

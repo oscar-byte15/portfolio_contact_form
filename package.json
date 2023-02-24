@@ -1,5 +1,5 @@
 {
-  "name": "portfolio_contact_form",
+  "name": "portfolio_reach_me_form",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oscar-byte15/portfolio_contact_form.git"
+    "url": "git+https://github.com/oscar-byte15/portfolio_reach_me_form.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscar-byte15/portfolio_contact_form/issues"
+    "url": "https://github.com/oscar-byte15/portfolio_reach_me_form/issues"
   },
-  "homepage": "https://github.com/oscar-byte15/portfolio_contact_form#readme",
+  "homepage": "https://github.com/oscar-byte15/portfolio_reach_me_form#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
